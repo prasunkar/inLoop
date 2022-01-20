@@ -3,7 +3,7 @@ import './App.css';
 
 function App() {
   let counter = 5
-
+  let variable = 3
   return (
     <div className="App">
       <header className="App-header">
@@ -11,6 +11,7 @@ function App() {
         <p>
           Edit <code>src/App.js</code> and save to reload.
           {counter}
+          {variable}
         </p>
         <a
           className="App-link"
